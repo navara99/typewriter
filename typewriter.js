@@ -7,7 +7,7 @@ const typeWriter = (sentence, increment) => {
     }, delay);
 
     delay += increment;
-  };
+  }
 
   setTimeout(() => {
     process.stdout.write("\n");
@@ -15,7 +15,7 @@ const typeWriter = (sentence, increment) => {
 };
 
 const sentence = "Hello, my name is Tharsikan.";
-const increment = 150; 
+const increment = 150;
 
 typeWriter(sentence , increment);
 
